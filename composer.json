@@ -1,0 +1,31 @@
+{
+    "name": "ifc/cookiebar",
+    "description": "CookieBar do Padrão Digital de Governo adaptado para o framework Laravel",
+    "keywords": ["ifc", "brcookiebar", "cookiebar", "cookie"],
+    "version": "v1.0.0",
+    "license": [
+        "CC0-1.0",
+        "MIT"
+    ],
+    "autoload": {
+        "psr-4": {
+            "IFC\\Cookiebar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Regis Amaral",
+            "email": "amaral.regis@gmail.com",
+            "homepage": "https://github.com/regis-amaral"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IFC\\Cookiebar\\Providers\\CookiebarProvider"
+            ]
+        }
+    }
+}
